@@ -63,7 +63,7 @@ nav .container .menu a {
 .main {
   width: 100%;
   min-height: 100vh;
-  background: url("./img/banner-bg.jpg") no-repeat center/cover;
+  background: url("./img/teq.jpg") no-repeat center/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +85,7 @@ nav .container .menu a {
 
 .main .container .mainInfo h2 {
   font-size: 68px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -134,8 +134,8 @@ nav .container .menu a {
 }
 
 .products .container .card:hover .cardInfo .btn {
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
   color: #fff;
 }
 
@@ -196,7 +196,8 @@ nav .container .menu a {
   width: 100%;
   max-width: 50%;
   height: 500px;
-  background: url("./img/about-img.png") no-repeat center/cover;
+  margin-left: 50px;
+  background: url("./img/2.jpg") no-repeat center/cover;
 }
 
 .connect .container .card .connectInfo {
@@ -206,7 +207,7 @@ nav .container .menu a {
 }
 
 .connect .container .card .connectInfo span {
-  color: #8a90ff;
+  color: #0f1586;
   font-size: 14px;
   margin-bottom: 8px;
   display: block;
@@ -231,17 +232,17 @@ nav .container .menu a {
 
 .connect .container .card .connectInfo .btn {
   margin: 14px 0 0 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
   color: #fff;
   border: 1px solid transparent;
   padding: 14px 34px;
 }
 
 .connect .container .card .connectInfo .btn:hover {
-  color: #8a90ff;
+  color: #0f1586;
   background: #fff;
-  border: 1px solid #8a90ff;
+  border: 1px solid #0f1586;
 }
 
 .connect .container .card.second {
@@ -261,7 +262,7 @@ nav .container .menu a {
 
 .connect .container .card.second .connectBg {
   height: 320px;
-  background: url("./img/video-bg.jpg") no-repeat center/cover;
+  background: url("./img/4.jpg") no-repeat center/cover;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,8 +276,8 @@ nav .container .menu a {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
   opacity: 0.7;
 }
 
@@ -290,7 +291,7 @@ nav .container .menu a {
 .features {
   padding: 100px 0;
   width: 100%;
-  background: url("./img/feature-bg.jpg") no-repeat center/cover;
+  background: url("./img/teq1.jpg") no-repeat center/cover;
 }
 
 .features .title {
@@ -331,7 +332,7 @@ nav .container .menu a {
 
 .features .container .featureCard:hover .cardTitle i,
 .features .container .featureCard:hover .cardTitle h3 {
-  color: #8a90ff;
+  color: #0f1586;
   -webkit-transition: color 700ms;
   transition: color 700ms;
 }
@@ -434,8 +435,8 @@ nav .container .menu a {
 }
 
 .blog .container .blogCard .blogInfo .heading .btn {
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
   color: #fff;
   padding: 10px 20px;
   border-radius: 0;
@@ -501,7 +502,7 @@ footer .container .footerCard.cardone a {
 }
 
 footer .container .footerCard.cardone a:hover {
-  color: #8a90ff;
+  color: #0f1586;
 }
 
 footer .container .footerCard.cardtwo {
@@ -535,15 +536,15 @@ footer .container .footerCard.cardtwo .email input {
 
 footer .container .footerCard.cardtwo .email .btn {
   border-radius: 50px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
   border: none;
   color: #fff;
   font-weight: 400;
 }
 
 footer .container .footerCard.cardtwo .email .btn:hover {
-  background: #8a90ff;
+  background: #0f1586;
 }
 
 footer .container .footerCard.cardtwo .email .btn i {
@@ -587,12 +588,12 @@ footer .wrapper .copyright p {
 }
 
 footer .wrapper .copyright p i {
-  color: #8a90ff;
+  color: #0f1586;
 }
 
 footer .wrapper .copyright p a {
   text-decoration: none;
-  color: #8a90ff;
+  color: #0f1586;
 }
 
 footer .wrapper .icons {
@@ -613,8 +614,8 @@ footer .wrapper .icons .box {
 }
 
 footer .wrapper .icons .box:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#828fff), to(#d496ff));
-  background: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#121f91), to(#0f1586));
+  background: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
 }
 
 footer .wrapper .icons .box i {

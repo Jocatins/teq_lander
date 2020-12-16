@@ -4,9 +4,9 @@ $grey: #777;
 $greybg: #f9f9ff;
 $iconbg: #111;
 $bdc: #eee;
-$blue: #8a90ff;
+$blue: #0f1586;
 $boxshadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
-$gradient: linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+$gradient: linear-gradient(0deg, #121f91 0%, #0f1586 100%);
 
 * {
   box-sizing: border-box;
@@ -64,7 +64,7 @@ nav {
 .main {
   width: 100%;
   min-height: 100vh;
-  background: url("./img/banner-bg.jpg") no-repeat center/cover;
+  background: url("./img/teq.jpg") no-repeat center/cover;
   display: flex;
   .container {
     margin: auto;
@@ -75,12 +75,13 @@ nav {
     .mainInfo {
       h2 {
         font-size: 68px;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 1.2;
       }
       p {
         margin: 10px 0 0 0;
       }
+
       .btn {
         margin: 20px 0;
       }
@@ -158,7 +159,8 @@ nav {
         width: 100%;
         max-width: 50%;
         height: 500px;
-        background: url("./img/about-img.png") no-repeat center/cover;
+        margin-left: 50px;
+        background: url("./img/2.jpg") no-repeat center/cover;
       }
       .connectInfo {
         width: 100%;
@@ -208,7 +210,7 @@ nav {
         }
         .connectBg {
           height: 320px;
-          background: url("./img/video-bg.jpg") no-repeat center/cover;
+          background: url("./img/4.jpg") no-repeat center/cover;
           position: relative;
           display: flex;
           max-width: 50%;
@@ -236,7 +238,7 @@ nav {
 .features {
   padding: 100px 0;
   width: 100%;
-  background: url("./img/feature-bg.jpg") no-repeat center/cover;
+  background: url("./img/teq1.jpg") no-repeat center/cover;
   .title {
     text-align: center;
     color: $wt;
